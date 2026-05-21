@@ -1,0 +1,40 @@
+{
+  "name": "fuchouzhe-ai-for-obsidian-showcase-public",
+  "version": "0.1.1",
+  "description": "富酬者 AI for Obsidian 的公开展示版，可安装体验本地 AI 工作流，商业登录与授权逻辑已移除。",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "watch": "npm run dev"
+  },
+  "keywords": [
+    "obsidian",
+    "ai",
+    "assistant",
+    "chat",
+    "minimax",
+    "workflow",
+    "agent",
+    "vault"
+  ],
+  "author": "ZeKai Yao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eurekkkkkka/fuchouzhe-ai-for-obsidian-showcase-public.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.2",
+    "obsidian": "latest",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "mammoth": "^1.12.0",
+    "tslib": "^2.8.1",
+    "word-extractor": "^1.0.4",
+    "xlsx": "^0.18.5"
+  }
+}

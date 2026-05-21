@@ -1,0 +1,11 @@
+{
+	"id": "fuchouzhe-ai-for-obsidian-showcase",
+	"name": "富酬者AI Showcase",
+	"version": "0.1.1",
+	"minAppVersion": "1.8.9",
+	"description": "富酬者 AI for Obsidian 的公开展示版：可安装体验 AI 对话、笔记上下文、文档解析、Vault 工具、场景动作、Skills 与 MiniMax MCP。",
+	"author": "ZeKai Yao",
+	"isDesktopOnly": true,
+	"js": "main.js",
+	"css": "styles.css"
+}

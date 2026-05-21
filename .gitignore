@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Obsidian
+.obsidian/
+
+# Logs
+*.log
+
+# Local files
+data.json
+VAULT_INFO.md
+
+# Local agent/editor state
+.claude/
